@@ -23,7 +23,7 @@ ufw allow 80/tcp
 cd /var/www/html/ # Default apache2 server path
 wget https://github.com/mining4altcoins/bws_monitor/releases/download/1.0.0.0/bws_monitor.zip
 unzip bws_monitor.zip
-rm master.zip # We don't need that anymore
+rm bws_monitor.zip # We don't need that anymore
 </pre>
 - Edit configuration (<b>rpc_user</b> and <b>rpc_password</b>)
 <pre>
